@@ -1,0 +1,45 @@
+.FormikContainer {
+  display: flex;
+  justify-content: center;
+}
+
+.FormikContainer label {
+  font-weight: bold;
+  display: flex;
+  margin-bottom: 5px;
+}
+
+.FormikContainer input + label {
+  font-weight: bold;
+  display: inline-flex;
+  margin-right: 20px;
+}
+
+.FormikContainer input[type="text"],
+.FormikContainer input[type="email"],
+.FormikContainer input[type="password"],
+.FormikContainer textarea,
+.FormikContainer select {
+  display: block;
+  width: 400px;
+  padding: 6px 12px;
+  font-size: 14px;
+  line-height: 1.42857143;
+  color: #555;
+  background-color: #fff;
+  background-image: none;
+  /* border: 1px solid #ccc; */
+  border-radius: 4px;
+  /* margin-bottom: 20px; */
+}
+
+.FormikContainer {
+  margin-bottom: 20px;
+}
+
+.FormikContainer .error {
+  color: red;
+}
+.error {
+  color: red;
+}

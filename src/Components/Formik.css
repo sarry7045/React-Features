@@ -1,0 +1,34 @@
+.formik label {
+  font-weight: bold;
+  display: flex;
+  margin-bottom: 5px;
+}
+
+.formik input[type="text"],
+.formik input[type="email"],
+.formik input[type="email"],
+.formik textarea {
+  display: block;
+  width: 400px;
+  padding: 6px 12px;
+  font-size: 14px;
+  line-height: 1.42857143;
+  color: #555;
+  background-color: #fff;
+  background-image: none;
+  /* border: 1px solid #ccc; */
+  border-radius: 4px;
+  /* margin-bottom: 20px; */
+}
+
+.formik .form-controll {
+  margin-bottom: 20px;
+}
+  
+.formik .error {
+  color: red;
+}
+.formik {
+  display: flex;
+  justify-content: center;
+}
