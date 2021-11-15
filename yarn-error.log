@@ -1,5 +1,5 @@
 Arguments: 
-  C:\Program Files\nodejs\node.exe C:\Users\MR.Yadav\AppData\Roaming\npm\node_modules\yarn\bin\yarn.js add typewritter-effect
+  C:\Program Files\nodejs\node.exe C:\Users\MR.Yadav\AppData\Roaming\npm\node_modules\yarn\bin\yarn.js add react-scripts
 
 PATH: 
   C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\ProgramData\Oracle\Java\javapath;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Program Files\Java\jdk-14.0.2\bin;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files\Java\jdk-14.0.2\bin;C:\Users\MR.Yadav\.dnx\bin;C:\Program Files\Microsoft DNX\Dnvm\;C:\Program Files\Microsoft SQL Server\120\Tools\Binn\;C:\Users\MR.Yadav\AppData\Local\Programs\Python\Python39;C:\Users\MR.Yadav\AppData\Local\Programs\Python\Python39\Scripts;C:\Program Files\Git\cmd;C:\Users\MR.Yadav\AppData\Local\Microsoft\WindowsApps;C:\Users\MR.Yadav\AppData\Local\Programs\Microsoft VS Code\bin;C:\Program Files (x86)\mingw-w64\i686-8.1.0-posix-dwarf-rt_v6-rev0\mingw32\bin;C:\Users\MR.Yadav\AppData\Roaming\npm;C:\adb;C:\Program Files\nodejs\;C:\ProgramData\chocolatey\bin;C:\xampp\php;C:\Users\MR.Yadav\AppData\Local\Microsoft\WindowsApps;C:\Users\MR.Yadav\AppData\Local\Programs\Microsoft VS Code\bin;C:\Program Files (x86)\mingw-w64\i686-8.1.0-posix-dwarf-rt_v6-rev0\mingw32\bin;C:\Users\MR.Yadav\AppData\Roaming\npm;C:\xampp\php;
@@ -14,17 +14,7 @@ Platform:
   win32 x64
 
 Trace: 
-  Error: https://registry.yarnpkg.com/typewritter-effect: Not found
-      at Request.params.callback [as _callback] (C:\Users\MR.Yadav\AppData\Roaming\npm\node_modules\yarn\lib\cli.js:66138:18)
-      at Request.self.callback (C:\Users\MR.Yadav\AppData\Roaming\npm\node_modules\yarn\lib\cli.js:140881:22)
-      at Request.emit (node:events:394:28)
-      at Request.<anonymous> (C:\Users\MR.Yadav\AppData\Roaming\npm\node_modules\yarn\lib\cli.js:141853:10)
-      at Request.emit (node:events:394:28)
-      at IncomingMessage.<anonymous> (C:\Users\MR.Yadav\AppData\Roaming\npm\node_modules\yarn\lib\cli.js:141775:12)
-      at Object.onceWrapper (node:events:513:28)
-      at IncomingMessage.emit (node:events:406:35)
-      at endReadableNT (node:internal/streams/readable:1343:12)
-      at processTicksAndRejections (node:internal/process/task_queues:83:21)
+  Error: EPERM: operation not permitted, unlink 'C:\Users\MR.Yadav\Desktop\Ongoing Projects\PortFolio Websites\React-Features\node_modules\react-scripts\node_modules\babel-loader\node_modules\.bin'
 
 npm manifest: 
   {
@@ -40,6 +30,7 @@ npm manifest:
       "@testing-library/react": "^11.1.0",
       "@testing-library/user-event": "^12.1.10",
       "@tippy.js/react": "^3.1.1",
+      "axios": "^0.24.0",
       "chart.js": "^3.5.1",
       "emotion-theming": "^11.0.0",
       "formik": "^2.2.9",
@@ -51,6 +42,7 @@ npm manifest:
       "react-dom": "^17.0.2",
       "react-icons": "^4.2.0",
       "react-idle-timer": "^4.6.4",
+      "react-jutsu": "^3.0.3",
       "react-modal": "^3.14.3",
       "react-player": "^2.9.0",
       "react-router-dom": "^5.3.0",
@@ -2962,6 +2954,13 @@ Lockfile:
     resolved "https://registry.yarnpkg.com/axe-core/-/axe-core-4.1.2.tgz#7cf783331320098bfbef620df3b3c770147bc224"
     integrity sha512-V+Nq70NxKhYt89ArVcaNL9FDryB3vQOd+BFXZIfO3RP6rwtj+2yqqqdHEkacutglPaZLkJeuXKCjCJDMGPtPqg==
   
+  axios@^0.24.0:
+    version "0.24.0"
+    resolved "https://registry.yarnpkg.com/axios/-/axios-0.24.0.tgz#804e6fa1e4b9c5288501dd9dff56a7a0940d20d6"
+    integrity sha512-Q6cWsys88HoPgAaFAVUb0WpPk0O8iTeisR9IMqy9G8AbO4NlpVknrnQS03zzF9PGAWgO3cgletO3VjV/P7VztA==
+    dependencies:
+      follow-redirects "^1.14.4"
+  
   axobject-query@^2.2.0:
     version "2.2.0"
     resolved "https://registry.yarnpkg.com/axobject-query/-/axobject-query-2.2.0.tgz#943d47e10c0b704aa42275e20edf3722648989be"
@@ -5578,6 +5577,11 @@ Lockfile:
     version "1.13.2"
     resolved "https://registry.yarnpkg.com/follow-redirects/-/follow-redirects-1.13.2.tgz#dd73c8effc12728ba5cf4259d760ea5fb83e3147"
     integrity sha512-6mPTgLxYm3r6Bkkg0vNM0HTjfGrOEtsfbhagQvbxDEsEkpNhw582upBaoRZylzen6krEmxXJgt9Ju6HiI4O7BA==
+  
+  follow-redirects@^1.14.4:
+    version "1.14.5"
+    resolved "https://registry.yarnpkg.com/follow-redirects/-/follow-redirects-1.14.5.tgz#f09a5848981d3c772b5392309778523f8d85c381"
+    integrity sha512-wtphSXy7d4/OR+MvIFbCVBDzZ5520qV8XfPklSN5QtxuMUJZ+b0Wnst1e1lCDocfzuCkHqj8k0FpZqO+UIaKNA==
   
   for-in@^1.0.2:
     version "1.0.2"
@@ -9756,6 +9760,11 @@ Lockfile:
     version "17.0.1"
     resolved "https://registry.yarnpkg.com/react-is/-/react-is-17.0.1.tgz#5b3531bd76a645a4c9fb6e693ed36419e3301339"
     integrity sha512-NAnt2iGDXohE5LI7uBnLnqvLQMtzhkiAOLXTmv+qnF9Ky7xAPcX8Up/xWIhxvLVGJvuLiNc4xQLtuqDRzb4fSA==
+  
+  react-jutsu@^3.0.3:
+    version "3.0.3"
+    resolved "https://registry.yarnpkg.com/react-jutsu/-/react-jutsu-3.0.3.tgz#56d7be964063af28b8bc127764fd2a9e462a2d91"
+    integrity sha512-mYzkvtOP4Dgz09zrqyXV3m4JfNqI0V7YIh7uzK0RbSq6JVaHIL2Pj2RQZQv3MfKxssCujIUfvJe0uATdkBEGug==
   
   react-lifecycles-compat@^3.0.0:
     version "3.0.4"
