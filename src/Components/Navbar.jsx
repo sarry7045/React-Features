@@ -6,7 +6,7 @@ function Navbar() {
     <div className="App">
       <nav className="navbar navbar-expand-lg navbar-dark bg-dark">
         <div className="container-fluid">
-          <Link className="navbar-brand" to="/">
+          <Link className="navbar-brand mx-4" to="/">
             React-Features
           </Link>
           <button
@@ -23,80 +23,49 @@ function Navbar() {
           <div className="collapse navbar-collapse" id="navbarSupportedContent">
             <ul className="navbar-nav me-auto mb-2 mb-lg-0">
               <li className="nav-item">
-                <Link className="nav-link active" aria-current="page" to="/">
-                  Home
+                <Link className="nav-link mx-2" aria-current="page" to="/">
+                  Page 1
                 </Link>
               </li>
-              <li className="nav-item">
+              <li className="nav-item mx-2 ">
                 <Link
-                  className="nav-link active"
+                  className="nav-link"
                   aria-current="page"
                   to="/idletimecontainer"
                 >
-                  Idle Timer
+                  Page 2
                 </Link>
               </li>
-              <li className="nav-item">
-                <Link
-                  className="nav-link active"
-                  aria-current="page"
-                  to="/creditcard"
-                >
-                  Credit Card, Date Picker, Loading Indicator
+
+              <li className="nav-item mx-2">
+                <Link className="nav-link" aria-current="page" to="/charts">
+                  Page 3
                 </Link>
               </li>
-              <li className="nav-item">
-                <Link
-                  className="nav-link active"
-                  aria-current="page"
-                  to="/videoplayer"
-                >
-                  Video Player
+              <li className="nav-item mx-2">
+                <Link className="nav-link" aria-current="page" to="/formik">
+                  Page 4
                 </Link>
               </li>
-              <li className="nav-item">
+              <li className="nav-item mx-2">
                 <Link
-                  className="nav-link active"
-                  aria-current="page"
-                  to="/charts"
-                >
-                  Charts
-                </Link>
-              </li>
-              <li className="nav-item">
-                <Link
-                  className="nav-link active"
-                  aria-current="page"
-                  to="/formik"
-                >
-                  Formik
-                </Link>
-              </li>
-              <li className="nav-item">
-                <Link
-                  className="nav-link active"
+                  className="nav-link"
                   aria-current="page"
                   to="/formiklogin"
                 >
-                  FormikLogin
+                  Page 5
                 </Link>
               </li>
-              {/* <li className="nav-item">
-                <Link
-                  className="nav-link active"
-                  aria-current="page"
-                  to="/newformik"
-                >
-                  NewFormikk
+
+              <li className="nav-item mx-2">
+                <Link className="nav-link " aria-current="page" to="/reactbeta">
+                  Page 6
                 </Link>
               </li>
-              <li className="nav-item">
-                <Link
-                  className="nav-link active"
-                  aria-current="page"
-                  to="/formikcontainer"
-                >
-                  FormikContainer
+
+              {/* <li className="nav-item mx-2">
+                <Link className="nav-link " aria-current="page" to="/videochat">
+                  Page 7
                 </Link>
               </li> */}
             </ul>
